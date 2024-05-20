@@ -1,0 +1,525 @@
+
+
+header h2 {
+    -webkit-transform: translate(-13%);
+        -ms-transform: translate(-13%);
+            transform: translate(-13%);
+  overflow: hidden;
+  font-weight:300;
+}
+
+header h2::after {
+  position: absolute;
+  content: "";
+  -webkit-animation: typing 25s infinite;
+          animation: typing 25s infinite;
+  font-size: 40px;
+  padding-left: 5px;
+  font-weight:500;
+
+}
+@media screen and (max-width: 900px) {
+ header h2{
+ font-size: 26px;
+} 
+ header h2::after {
+    margin-top: 3px;
+    font-size: 26px; 
+    font-weight: 500;
+  }
+}
+@-webkit-keyframes typing {
+  0% {
+    content: "D |";
+  }
+  1% {
+    content: "De |";
+  }
+  2% {
+    content: "Des |";
+  }
+  3% {
+    content: "Desi |";
+  }
+  4% {
+    content: "Desig |";
+  }
+  5% {
+    content: "Design |";
+  }
+  6% {
+    content: "Designe |";
+  }
+  7% {
+    content: "Designer |";
+  }
+  20% {
+    content: "Designer |";
+  }
+  21% {
+    content: "Designe |";
+  }
+  22% {
+    content: "Design |";
+  }
+  23% {
+    content: "Desig |";
+  }
+  24% {
+    content: "Desi |";
+  }
+  25% {
+    content: "Des |";
+  }
+  26% {
+    content: "De |";
+  }
+  27% {
+    content: "D |";
+  }
+  28% {
+    content: "L|";
+  }
+  29% {
+    content: "La|";
+  }
+  29% {
+    content: "Lar|";
+  }
+  30% {
+    content: "Larr|";
+  }
+  31% {
+    content: "Larry|";
+  }
+  32% {
+    content: "Larry|";
+  }
+  33% {
+    content: "Larry D|";
+  }
+  34% {
+    content: "Larry Da|";
+  }
+  35% {
+    content: "Larry Dan|";
+  }
+  36% {
+    content: "Larry Dani|";
+  }
+  37% {
+    content: "Larry Danie|";
+  }
+  38% {
+    content: "Larry Daniel|";
+  }
+  39% {
+    content: "Larry Daniels|";
+  }
+  52% {
+    content: "Larry Daniels|";
+  }
+  53% {
+    content: "Larry Daniel|";
+  }
+  54% {
+    content: "Larry Danie|";
+  }
+  55% {
+    content: "Larry Dani |";
+  }
+  56% {
+    content: "Larry Dan |";
+  }
+  57% {
+    content: "Larry Da |";
+  }
+  58% {
+    content: "Larry D |";
+  }
+  59% {
+    content: "Larry |";
+  }
+  60% {
+    content: "Larr |";
+  }
+  61% {
+    content: "Lar |";
+  }
+  62% {
+    content: "La |";
+  }
+  63% {
+    content: "L |";
+  }
+  64% {
+    content: "|";
+  }
+  65% {
+    content: "D |";
+  }
+  66% {
+    content: "De |";
+  }
+  67% {
+    content: "Dev |";
+  }
+  68% {
+    content: "Deve |";
+  }
+  69% {
+    content: "Devel |";
+  }
+  70% {
+    content: "Develo |";
+  }
+  71% {
+    content: "Develop |";
+  }
+  72% {
+    content: "Develope |";
+  }
+  73% {
+    content: "Developer |";
+  }
+  91% {
+    content: "Developer |";
+  }
+  92% {
+    content: "Develope |";
+  }
+  93% {
+    content: "Develop |";
+  }
+  94% {
+    content: "Develo |";
+  }
+  95% {
+    content: "Devel |";
+  }
+  96% {
+    content: "Deve |";
+  }
+  97% {
+    content: "Dev |";
+  }
+  98% {
+    content: "De |";
+  }
+  99% {
+    content: "D |";
+  }
+  100% {
+    content: " |";
+  }
+}
+@keyframes typing {
+  0% {
+    content: "D |";
+  }
+  1% {
+    content: "De |";
+  }
+  2% {
+    content: "Des |";
+  }
+  3% {
+    content: "Desi |";
+  }
+  4% {
+    content: "Desig |";
+  }
+  5% {
+    content: "Design |";
+  }
+  6% {
+    content: "Designe |";
+  }
+  7% {
+    content: "Designer |";
+  }
+  20% {
+    content: "Designer |";
+  }
+  21% {
+    content: "Designe |";
+  }
+  22% {
+    content: "Design |";
+  }
+  23% {
+    content: "Desig |";
+  }
+  24% {
+    content: "Desi |";
+  }
+  25% {
+    content: "Des |";
+  }
+  26% {
+    content: "De |";
+  }
+  27% {
+    content: "D |";
+  }
+  28% {
+    content: "L |";
+  }
+  29% {
+    content: "La |";
+  }
+  29% {
+    content: "Lar |";
+  }
+  30% {
+    content: "Larr |";
+  }
+  31% {
+    content: "Larry |";
+  }
+  32% {
+    content: "Larry |";
+  }
+  33% {
+    content: "Larry D |";
+  }
+  34% {
+    content: "Larry Da |";
+  }
+  35% {
+    content: "Larry Dan |";
+  }
+  36% {
+    content: "Larry Dani |";
+  }
+  37% {
+    content: "Larry Danie |";
+  }
+  38% {
+    content: "Larry Daniel |";
+  }
+  39% {
+    content: "Larry Daniels |";
+  }
+  52% {
+    content: "Larry Daniels |";
+  }
+  53% {
+    content: "Larry Daniel |";
+  }
+  54% {
+    content: "Larry Danie |";
+  }
+  55% {
+    content: "Larry Dani |";
+  }
+  56% {
+    content: "Larry Dan |";
+  }
+  57% {
+    content: "Larry Da |";
+  }
+  58% {
+    content: "Larry D |";
+  }
+  59% {
+    content: "Larry |";
+  }
+  60% {
+    content: "Larr |";
+  }
+  61% {
+    content: "Lar |";
+  }
+  62% {
+    content: "La |";
+  }
+  63% {
+    content: "L |";
+  }
+  64% {
+    content: "|";
+  }
+  65% {
+    content: "D |";
+  }
+  66% {
+    content: "De |";
+  }
+  67% {
+    content: "Dev |";
+  }
+  68% {
+    content: "Deve |";
+  }
+  69% {
+    content: "Devel |";
+  }
+  70% {
+    content: "Develo |";
+  }
+  71% {
+    content: "Develop |";
+  }
+  72% {
+    content: "Develope |";
+  }
+  73% {
+    content: "Developer |";
+  }
+  91% {
+    content: "Developer |";
+  }
+  92% {
+    content: "Develope |";
+  }
+  93% {
+    content: "Develop |";
+  }
+  94% {
+    content: "Develo |";
+  }
+  95% {
+    content: "Devel |";
+  }
+  96% {
+    content: "Deve |";
+  }
+  97% {
+    content: "Dev |";
+  }
+  98% {
+    content: "De |";
+  }
+  99% {
+    content: "D |";
+  }
+  100% {
+    content: " |";
+  }
+}
+/* ========================= */
+
+.con:after {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #333;
+  content: counter(num);
+}
+
+/* ==============num1============= */
+@property --num1 {
+  syntax: "<integer>";
+  initial-value: 850;
+  inherits: true;
+}
+
+.counter .num1 {
+  -webkit-animation: counter-num1 2s alternate ease-in-out;
+  animation: counter-num1 2s alternate ease-in-out;
+  counter-reset: num var(--num1);
+  font-size: 1rem;
+}
+@-webkit-keyframes counter-num1 {
+  from {
+    --num1: 0;
+  }
+  to {
+    --num1: 850;
+  }
+}
+@keyframes counter-num1 {
+  from {
+    --num1: 0;
+  }
+  to {
+    --num1: 850;
+  }
+}
+/* ==============num2============= */
+@property --num2 {
+  syntax: "<integer>";
+  initial-value: 230;
+  inherits: true;
+}
+
+.counter .num2 {
+  -webkit-animation: counter-num2 2s alternate ease-in-out;
+  animation: counter-num2 2s alternate ease-in-out;
+  counter-reset: num var(--num2);
+  font-size: 1rem;
+}
+@-webkit-keyframes counter-num2 {
+  from {
+    --num2: 0;
+  }
+  to {
+    --num2: 230;
+  }
+}
+@keyframes counter-num2 {
+  from {
+    --num2: 0;
+  }
+  to {
+    --num2: 230;
+  }
+}
+/* ==============num3============= */
+@property --num3 {
+  syntax: "<integer>";
+  initial-value: 9450;
+  inherits: true;
+}
+
+.counter .num3 {
+  -webkit-animation: counter-num3 2s alternate ease-in-out;
+  animation: counter-num3 2s alternate ease-in-out;
+  counter-reset: num var(--num3);
+  font-size: 1rem;
+}
+@-webkit-keyframes counter-num3 {
+  from {
+    --num3: 0;
+  }
+  to {
+    --num3: 9450;
+  }
+}
+@keyframes counter-num3 {
+  from {
+    --num3: 0;
+  }
+  to {
+    --num3: 9450;
+  }
+}
+/* ==============num4============= */
+@property --num4 {
+  syntax: "<integer>";
+  initial-value: 780;
+  inherits: true;
+}
+
+.counter .num4 {
+  -webkit-animation: counter-num4 2s alternate ease-in-out;
+  animation: counter-num4 2s alternate ease-in-out;
+  counter-reset: num var(--num4);
+  font-size: 1rem;
+}
+@-webkit-keyframes counter-num4 {
+  from {
+    --num4: 0;
+  }
+  to {
+    --num4: 780;
+  }
+}
+@keyframes counter-num4 {
+  from {
+    --num4: 0;
+  }
+  to {
+    --num4: 780;
+  }
+}
